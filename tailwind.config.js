@@ -4,10 +4,13 @@ export default {
     "./index.html",
 
 
-"./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
+      fontFamily:{
+        poppins:['poppins','sans-serif'],
+      },
       colors: {
         primary: {
           light: '#23CE6B', // custom light primary color
