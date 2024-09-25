@@ -9,7 +9,7 @@ const Navbar = () => {
             </div>
 
             <div className="flex justify-evenly items-baseline gap-7 max-sm:justify-end max-sm:flex-1">
-              <img src="public/assets/icons/🦆 icon _hamburger button_.png" className="cursor-pointer block lg:hidden h-[40px] w-[40px]"/>
+              <img src="public/assets/icons/🦆 icon _hamburger button_.png" className="cursor-pointer block md:hidden lg:hidden h-[40px] w-[40px]"/>
               <ol className="flex justify-evenly items-center gap-8 font-medium  max-sm:hidden">
                 <li className="cursor-pointer">About us</li>
                 <li className="cursor-pointer">Services</li>
