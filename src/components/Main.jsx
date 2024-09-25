@@ -1,7 +1,7 @@
 
 const Main = () => {
   return (
-    <section className="flex items-center justify-center md:gap-[10vw] font-poppins my-10 relative">
+    <section className="flex items-center justify-center md:gap-[8vw] font-poppins my-10 relative">
     <div>
         <img src="public/assets/images/Ambulance-amico.png" className="h-[32rem] hidden md:block lg:block"/>
     </div>
@@ -21,7 +21,7 @@ const Main = () => {
     </div>
     <img src="public/assets/images/Ambulance-bro (1).png" className="absolute h-[30rem] opacity-40 -z-10 top-0 lg:right-[8rem]"/>
     <img src="public/assets/icons/Group 590.png" className="absolute h-[10rem] -z-10 top-0 right-3 md:right-[5rem] rotate-90"/>
-    <img src="public/assets/icons/Group 590.png" className="absolute h-[10rem] -z-10 bottom-0 left-3 md:left-[5rem] -rotate-90"/>
+    <img src="public/assets/icons/Group 590.png" className="absolute h-[10rem] -z-10 bottom-0 left-3 md:left-[7rem] -rotate-90"/>
     </section>
   )
 }
