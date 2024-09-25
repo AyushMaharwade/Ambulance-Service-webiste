@@ -10,6 +10,7 @@ export default {
     extend: {
       fontFamily:{
         poppins:['poppins','sans-serif'],
+        volkhov:['"Volkhov", serif'],
       },
       colors: {
         primary: {
@@ -17,7 +18,7 @@ export default {
           DEFAULT: '#2BA84A', // default primary color
           dark: '#2D3A3A', // custom dark primary color
         },
-        secondary: '#f59e0b', // custom secondary color
+        secondary: '#040F0F', // custom secondary color
       },
     },
   },

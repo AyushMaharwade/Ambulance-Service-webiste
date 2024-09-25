@@ -1,11 +1,12 @@
 import Navbar from "./components/Navbar"
+import Main from "./components/Main"
 
 const App = () => {
 
   return (
     <>
     <Navbar />
-    {/* <h1 className="text-3xl font-bold text-primary underline text-center">Hello world!</h1> */}
+    <Main />
     </>
   )
 }
