@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar"
 import Main from "./components/Main"
 import Insight from "./components/Insight"
+import CustomerSupport from "./components/CustomerSupport"
 
 const App = () => {
 
@@ -9,6 +10,7 @@ const App = () => {
     <Navbar />
     <Main />
     <Insight />
+    <CustomerSupport />
     </>
   )
 }

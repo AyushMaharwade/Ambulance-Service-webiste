@@ -9,12 +9,14 @@ const Navbar = () => {
             </div>
 
             <div className="flex justify-evenly items-baseline gap-7 max-sm:justify-end max-sm:flex-1">
-              <img src="public/assets/icons/🦆 icon _hamburger button_.png" className="cursor-pointer block md:hidden lg:hidden h-[40px] w-[40px]"/>
+              <button>
+                <img src="public/assets/icons/🦆 icon _hamburger button_.png" className="cursor-pointer block md:hidden lg:hidden h-[40px] w-[40px]"/>
+              </button>
               <ol className="flex justify-evenly items-center gap-8 font-medium  max-sm:hidden">
-                <li className="cursor-pointer">About us</li>
-                <li className="cursor-pointer">Services</li>
-                <li className="cursor-pointer">Pricing</li>
-                <li className="cursor-pointer">Use Cases</li>
+                <li className="cursor-pointer hover:text-primary-light">About us</li>
+                <li className="cursor-pointer hover:text-primary-light">Services</li>
+                <li className="cursor-pointer hover:text-primary-light">Pricing</li>
+                <li className="cursor-pointer hover:text-primary-light">Use Cases</li>
               </ol>
             </div>
         </nav>
